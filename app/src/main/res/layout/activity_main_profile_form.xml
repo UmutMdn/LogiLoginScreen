@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainProfileForm">
+
+    <ImageView
+        android:id="@+id/formImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logi"
+        android:scaleType="center"
+
+        />
+
+    <Button
+        android:id="@+id/onayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onayla"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/departman2"
+        />
+
+    <TextView
+        android:id="@+id/isim2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İsim:"
+        android:textSize="20sp"
+        android:layout_below="@id/formImage"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="75dp"
+        />
+
+    <TextView
+        android:id="@+id/soyİsim2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soy İsim:"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/isim2"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/soyİsim2"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/phone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefon Numarası:"
+        android:textSize="20sp"
+        android:layout_below="@id/email2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="75dp"
+        />
+
+    <TextView
+        android:id="@+id/departman2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Departman:"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_below="@id/phone2"
+        />
+
+
+</RelativeLayout>
